@@ -14,3 +14,8 @@ let macBookCharger106 = Charger(maximumWattPerHour: 106)
 var whaleMacBook = MacBook(permittedChargeWattPerHour: 75, currentBattery: 20)
 
 whaleMacBook.chargeBattery(charger: iPadCharger)
+
+var dasanBag = Bag()
+dasanBag.put(item: whaleMacBook)
+dasanBag.put(item: macBookCharger96)
+print(dasanBag.openBag())

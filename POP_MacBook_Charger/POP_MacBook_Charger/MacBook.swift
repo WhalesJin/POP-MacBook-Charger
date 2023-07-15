@@ -7,7 +7,7 @@
 
 import Foundation
 // 맥북은 각각 다 다르니까 값 타입.
-struct MacBook {
+struct MacBook: Portable {
     let permittedChargeWattPerHour: WattPerHour
     var currentBattery: Watt
     let maximumBattery: Watt = 100

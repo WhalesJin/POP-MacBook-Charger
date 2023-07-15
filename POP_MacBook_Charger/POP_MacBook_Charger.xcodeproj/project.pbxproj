@@ -12,6 +12,8 @@
 		3C9F5F932A623F7100C11609 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F5F922A623F7100C11609 /* Typealias.swift */; };
 		3C9F5F952A623FEC00C11609 /* MacBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F5F942A623FEC00C11609 /* MacBook.swift */; };
 		3CEA7E1D2A62806300123696 /* Charger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEA7E1C2A62806300123696 /* Charger.swift */; };
+		3CEA7E1F2A62853000123696 /* Portable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEA7E1E2A62853000123696 /* Portable.swift */; };
+		3CEA7E212A62854C00123696 /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEA7E202A62854C00123696 /* Bag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +35,8 @@
 		3C9F5F922A623F7100C11609 /* Typealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
 		3C9F5F942A623FEC00C11609 /* MacBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacBook.swift; sourceTree = "<group>"; };
 		3CEA7E1C2A62806300123696 /* Charger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charger.swift; sourceTree = "<group>"; };
+		3CEA7E1E2A62853000123696 /* Portable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Portable.swift; sourceTree = "<group>"; };
+		3CEA7E202A62854C00123696 /* Bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 				3C9F5F902A623F0B00C11609 /* Chargeable.swift */,
 				3CEA7E1C2A62806300123696 /* Charger.swift */,
 				3C9F5F942A623FEC00C11609 /* MacBook.swift */,
+				3CEA7E1E2A62853000123696 /* Portable.swift */,
+				3CEA7E202A62854C00123696 /* Bag.swift */,
 			);
 			path = POP_MacBook_Charger;
 			sourceTree = "<group>";
@@ -132,7 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CEA7E1F2A62853000123696 /* Portable.swift in Sources */,
 				3CEA7E1D2A62806300123696 /* Charger.swift in Sources */,
+				3CEA7E212A62854C00123696 /* Bag.swift in Sources */,
 				3C9F5F952A623FEC00C11609 /* MacBook.swift in Sources */,
 				3C9F5F8A2A623EF900C11609 /* main.swift in Sources */,
 				3C9F5F932A623F7100C11609 /* Typealias.swift in Sources */,
