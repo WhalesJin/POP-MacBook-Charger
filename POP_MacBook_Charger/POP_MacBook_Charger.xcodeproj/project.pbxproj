@@ -70,14 +70,30 @@
 			isa = PBXGroup;
 			children = (
 				3C9F5F892A623EF900C11609 /* main.swift */,
-				3C9F5F922A623F7100C11609 /* Typealias.swift */,
-				3C9F5F902A623F0B00C11609 /* Chargeable.swift */,
-				3CEA7E1C2A62806300123696 /* Charger.swift */,
-				3C9F5F942A623FEC00C11609 /* MacBook.swift */,
-				3CEA7E1E2A62853000123696 /* Portable.swift */,
-				3CEA7E202A62854C00123696 /* Bag.swift */,
+				3CEA7E222A628B4F00123696 /* Protocol */,
+				3CEA7E232A628B5C00123696 /* Type */,
 			);
 			path = POP_MacBook_Charger;
+			sourceTree = "<group>";
+		};
+		3CEA7E222A628B4F00123696 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				3C9F5F902A623F0B00C11609 /* Chargeable.swift */,
+				3CEA7E1E2A62853000123696 /* Portable.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		3CEA7E232A628B5C00123696 /* Type */ = {
+			isa = PBXGroup;
+			children = (
+				3C9F5F922A623F7100C11609 /* Typealias.swift */,
+				3CEA7E1C2A62806300123696 /* Charger.swift */,
+				3C9F5F942A623FEC00C11609 /* MacBook.swift */,
+				3CEA7E202A62854C00123696 /* Bag.swift */,
+			);
+			path = Type;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
