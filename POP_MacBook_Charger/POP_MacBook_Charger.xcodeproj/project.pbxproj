@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3C9F5F8A2A623EF900C11609 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F5F892A623EF900C11609 /* main.swift */; };
 		3C9F5F912A623F0B00C11609 /* Chargeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F5F902A623F0B00C11609 /* Chargeable.swift */; };
+		3C9F5F932A623F7100C11609 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F5F922A623F7100C11609 /* Typealias.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		3C9F5F862A623EF900C11609 /* POP_MacBook_Charger */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = POP_MacBook_Charger; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C9F5F892A623EF900C11609 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3C9F5F902A623F0B00C11609 /* Chargeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chargeable.swift; sourceTree = "<group>"; };
+		3C9F5F922A623F7100C11609 /* Typealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				3C9F5F892A623EF900C11609 /* main.swift */,
 				3C9F5F902A623F0B00C11609 /* Chargeable.swift */,
+				3C9F5F922A623F7100C11609 /* Typealias.swift */,
 			);
 			path = POP_MacBook_Charger;
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C9F5F8A2A623EF900C11609 /* main.swift in Sources */,
+				3C9F5F932A623F7100C11609 /* Typealias.swift in Sources */,
 				3C9F5F912A623F0B00C11609 /* Chargeable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
